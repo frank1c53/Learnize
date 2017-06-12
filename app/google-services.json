@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739957639341",
+    "firebase_url": "https://learnize-39bde.firebaseio.com",
+    "project_id": "learnize-39bde",
+    "storage_bucket": "learnize-39bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739957639341:android:4b3b1ed665c8234a",
+        "android_client_info": {
+          "package_name": "com.coder.frank.learnize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739957639341-ke34155crgt8sjekpvm9eils1svt6ard.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coder.frank.learnize",
+            "certificate_hash": "4613c553401e9f472a02818854957c74e8086fb7"
+          }
+        },
+        {
+          "client_id": "739957639341-vlltcg5nqnkmk9pat8fi4va39l0qdmu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM3xmm4NZckbskFOQR-DUkKgDC49hotXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739957639341-vlltcg5nqnkmk9pat8fi4va39l0qdmu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

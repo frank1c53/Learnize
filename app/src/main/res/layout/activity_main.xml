@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.coder.frank.learnize.MainActivity">
+
+
+    <ImageView
+        android:layout_height="257dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/learnize">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Select Respective Option"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:orientation="horizontal"
+        android:paddingRight="30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="30dp"
+            android:orientation="horizontal"
+            android:paddingRight="30dp">
+
+            <ImageButton
+                android:id="@+id/ib1"
+                android:layout_width="83dp"
+                android:layout_height="137dp"
+                android:onClick="onTeach"
+                android:src="@drawable/teachers"></ImageButton>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="30dp"
+            android:orientation="horizontal"
+            android:paddingRight="30dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="83dp"
+                android:layout_height="132dp"
+                android:onClick="onStudent"
+                android:src="@drawable/studies"></ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
